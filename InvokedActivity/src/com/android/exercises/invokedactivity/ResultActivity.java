@@ -2,10 +2,11 @@ package com.android.exercises.invokedactivity;
 
 import android.support.v4.app.Fragment;
 
-public class MainActivity extends SingleFragmentActivity {
+public class ResultActivity extends SingleFragmentActivity {
 
 	@Override
     public Fragment createFragment() {
-        return new MainActivityFragment();
+        return new ResultActivityFragment();
     }
+
 }
